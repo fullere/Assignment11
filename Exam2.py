@@ -97,5 +97,3 @@ while choice != 6:
 
     else:
         print("You have entered an invalid menu option!\n")
-
-
