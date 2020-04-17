@@ -48,11 +48,13 @@ while choice != 6:
         print("You have selected a Selection Sort!")
         qty = fill_list()
 
-        # some new code to keep track of how long the method took
         start_time = time.time()
-        print(f"** It takes {(time.time() - start_time)} seconds to complete a Selection Sort with {qty} values **")
 
         my_list = Search_Methods.selection_sort(my_list)
+        # some new code to keep track of how long the method took
+
+        print(f"** It takes {(time.time() - start_time)} seconds to complete a Selection Sort with {qty} values **")
+
         print("\nAfter sorting the list with Selection Sort, the list looks like the following:")
         print(my_list)
 
@@ -62,9 +64,10 @@ while choice != 6:
 
         # some new code to keep track of how long the method took
         start_time = time.time()
-        print(f"** It takes {(time.time() - start_time)} seconds to complete a Insertion Sort with {qty} values **")
 
         my_list = Search_Methods.insertion_sort(my_list)
+        print(f"** It takes {(time.time() - start_time)} seconds to complete a Insertion Sort with {qty} values **")
+
         print("\nAfter sorting the list with Insertion Sort, the list looks like the following:")
         print(my_list)
 
@@ -74,9 +77,10 @@ while choice != 6:
 
         # some new code to keep track of how long the method took
         start_time = time.time()
-        print(f"** It takes {(time.time() - start_time)} seconds to complete a Merge Sort with {qty} values **")
 
         my_list = Search_Methods.merge_sort(my_list)
+        print(f"** It takes {(time.time() - start_time)} seconds to complete a Merge Sort with {qty} values **")
+
         print("\nAfter sorting the list with Merge Sort, the list looks like the following:")
         print(my_list)
 
@@ -86,9 +90,10 @@ while choice != 6:
 
         # some new code to keep track of how long the method took
         start_time = time.time()
-        print(f"** It takes {(time.time() - start_time)} seconds to complete a Quick Sort with {qty} values **")
 
         my_list = Search_Methods.quick_sort(my_list)
+        print(f"** It takes {(time.time() - start_time)} seconds to complete a Quick Sort with {qty} values **")
+
         print("\nAfter sorting the list with Quick Sort, the list looks like the following:")
         print(my_list)
 
